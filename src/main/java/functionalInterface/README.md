@@ -23,3 +23,14 @@ static int incrementByOne(int number){
         int n2 = incrementByOneFunction.apply(11);
         System.out.println(n2);
 ```
+#### use andThan
+```java
+        static Function<Integer, Integer> incrementByOneFunction = number -> number +1;
+
+        // use Interface function to multiply a number by 1
+        static Function<Integer, Integer> multipyByTenFunction = number -> number * 10;
+
+        // use two function together with (andThen)
+        int m3 = incrementByOneFunction.andThen(multipyByTenFunction).apply(4);
+        System.out.println("(4 + 1) function * 10 Function = " + m3);
+```
