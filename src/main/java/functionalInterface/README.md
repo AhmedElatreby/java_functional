@@ -34,3 +34,37 @@ static int incrementByOne(int number){
         int m3 = incrementByOneFunction.andThen(multipyByTenFunction).apply(4);
         System.out.println("(4 + 1) function * 10 Function = " + m3);
 ```
+
+### Consumer Functional interface
+```java
+public class _Consumer {
+    public static void main(String[] args) {
+        // Normal java function
+       Customer Ahmed = new Customer( "Ahmed", "012012012");
+       greetCustomer(Ahmed);
+       greetCustomer(Ahmed);
+
+    }
+    // Consumer Functional interface
+    static Consumer<Customer> greetCustomerConsumer = customer ->
+            System.out.println("Hello  " + customer.customerName +
+                    ", thank you for registering " +
+                    customer.CustomerPhoneNumber);
+
+    static void greetCustomer(Customer customer) {
+        System.out.println("Hello  " + customer.customerName +
+                ", thank you for registering " +
+                customer.CustomerPhoneNumber);
+    }
+
+    static class Customer {
+        private final String customerName;
+        private final String CustomerPhoneNumber;
+
+        Customer(String customerName, String customerPhoneNumber) {
+            this.customerName = customerName;
+            this.CustomerPhoneNumber = customerPhoneNumber;
+        }
+    }
+}
+```
