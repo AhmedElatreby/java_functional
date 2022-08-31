@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4113b50-ae96-432b-b163-344e710493fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/functionalInterface/_Predicate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/functionalInterface/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functionalInterface/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/functionalInterface/_Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functionalInterface/_Function.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application._Consumer">
+  <component name="RunManager" selected="Application._Predicate">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="imperative.Main" />
       <module name="javafunctional" />
@@ -82,8 +81,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_Predicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functionalInterface._Predicate" />
+      <module name="javafunctional" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functionalInterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._Predicate" />
         <item itemvalue="Application._Consumer" />
         <item itemvalue="Application._Function" />
         <item itemvalue="Application.Main" />
@@ -100,7 +113,7 @@
       <updated>1660690344224</updated>
       <workItem from="1660690345895" duration="647000" />
       <workItem from="1661422609931" duration="8544000" />
-      <workItem from="1661935619793" duration="2590000" />
+      <workItem from="1661935619793" duration="3691000" />
     </task>
     <servers />
   </component>
